@@ -181,8 +181,8 @@ NavIcon.addEventListener('click', navMeanuToggle);
 function navMeanuToggle() {
     const isOpen = NavMeanuDiv.classList.contains('opacity-100');
     if (isOpen) {
-        NavMeanuDiv.classList.remove('opacity-100', 'z-40');
-        NavMeanuDiv.classList.add('opacity-0', '-z-10');
+        NavMeanuDiv.classList.remove('opacity-100', 'z-40', 'pointer-events-auto');
+        NavMeanuDiv.classList.add('opacity-0', 'pointer-events-none', '-z-10');
         NavMeanucolumn1Items.classList.remove('opacity-100', 'translate-x-0', 'delay-1000');
         NavMeanucolumn1Items.classList.add('opacity-0', '-translate-x-20', 'delay-1000');
 
@@ -200,8 +200,8 @@ function navMeanuToggle() {
             column2.classList.remove('opacity-100', 'translate-y-0');
         }, 500);
     } else {
-        NavMeanuDiv.classList.remove('opacity-0', '-z-10');
-        NavMeanuDiv.classList.add('opacity-100', 'z-40');
+        NavMeanuDiv.classList.remove('opacity-0', '-z-10', 'pointer-events-none');
+        NavMeanuDiv.classList.add('opacity-100', 'z-40', 'pointer-events-auto',);
         NavMeanuDiv.classList.add('transition-all', 'duration-600', 'ease-[cubic-bezier(0,0,0.3642,1)]');
 
         NavIconLine1.classList.add('rotate-45', 'translate-y-1')
