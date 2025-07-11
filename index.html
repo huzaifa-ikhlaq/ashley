@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley-h</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="box-border p-0 m-0 bg-black">
+    <!-- custom-cursor -->
+    <div class="custom-cursor bg-gray-200 max-lg:hidden"></div>
+    <!-- custom-scrollbar -->
+    <div id="progress" class="fixed top-0 right-0 w-1 z-50 hfull bg-yellow"></div>
+
+    <!-- <first-page></first-page> -->
+    <div id="page-1" class=" relative z-50">
+        <section class="bg-black h-screen  flex  justify-center items-center">
+            <h1
+                class="text-white text-[35px] colg:text-[45px] font-thin flex max-colg:flex-col leading-9 text-center gap-3">
+                <span id="word-1" class="block opacity-0 transition-all duration-1000 translate-y-4">Pioneering</span>
+                <span id="word-2"
+                    class="block font-medium opacity-0 transition-all duration-1000 translate-y-4">Creative</span>
+                <span id="word-3" class="block opacity-0 transition-all duration-1000 translate-y-4">Excellence</span>
+            </h1>
+        </section>
+    </div>
+
+    <!-- <second-page></second-page> -->
+    <div id="page-2" class="bg-black hidden relative z-50">
+        <section class=" h-screen flex items-center justify-center">
+            <div id="page2MainDiv"
+                class="relative w-65 flex justify-center items-center
+                  group overflow-hidden transition-all duration-800 ease-[cubic-bezier(0, 0, 0.3642, 1)] -translate-x-10 ">
+                <h3 id="page-2-text"
+                    class=" text-[36px] colg:text-[39px] xl:text-[42px] text-white font-thin opacity-0 text-center translate-x-5">
+                    ashely.com</h3>
+                <div id="page-2-bg"
+                    class="bg-yellow h-11.5 xl:h-12.5 w-full transition-all duration-500 ease-[cubic-bezier(0, 0, 0.3642, 1)] -translate-x-full  absolute z-10 top-3.5 left-0 ">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- <main-page></main-page> -->
+    <div id="main-page" class="relativ -z-50 hidden ">
+        <!-- <nav></nav> -->
+        <nav
+            class="xl:mix-blend-difference h-22.5 xl:h-35.5 px-7.5 2xl:px-15 w-full flex justify-between items-center fixed z-60   bg-black">
+            <!-- ✅ logo inside nav is fine now -->
+            <div id="nav-logo" class="text-white text-4xl colg:text-[42px] font-medium">
+                <a href="#" onclick="event.preventDefault()">A.</a>
+            </div>
+
+            <!-- ✅ hamburger menu lines -->
+            <div id="nav-three-line" class="flex flex-col gap-1.5 relative cursor-pointer group">
+                <div id="nav-three-line-1" class="bg-white w-7 h-[2.5px] origin-center transition"></div>
+                <div id="nav-three-line-2" class="bg-white w-7 h-[2.5px] origin-center transition"></div>
+                <div id="nav-three-line-3" class="bg-white w-4.5 h-[3.3px] relative -bottom-[0.5px] transition"></div>
+            </div>
+        </nav>
+        <!-- <side-text></side-text> -->
+        <!-- left-side-text -->
+        <h4 id="leftSideText"
+            class=" text-xs -rotate-90 z-50 fixed mix-blend-difference text-white left-[31px] bottom-23.5 tracking-[2px] max-xl:hidden">
+            HOMEPAGE</h4>
+        <!-- Right Side-text -->
+        <a href="#" onclick="event.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' })" id="rightSideText"
+            class="flex flex-col justify-center items-center cursor-pointer group opacity-0 transition max-xl:hidden ">
+            <div
+                class="bg-[#E5E5E5] fixed mix-blend-difference bottom-47 right-15 z-50 size-10 rounded-full  flex justify-center items-center group-hover:scale-110 transition">
+                <svg class="-rotate-90  fixed text-black " xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                    viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                </svg>
+            </div>
+
+            <div id="leftSideText"
+                class=" text-xs -rotate-90 z-50 fixed mix-blend-difference text-white  bottom-27 right-8 tracking-[2px] max-xl:hidden">
+                BACK TO TOP</div>
+        </a>
+        <!-- <hero-section></hero-section>  -->
+        <section id="heroSection" class=" bg-black w-full h-screen relative z-40 overflow-hidden ">
+            <div>
+                <!-- <nav-meanu>-->
+                <div id="nav-meanu-div"
+                    class="bg-black h-screen w-full fixed opacity-0 -z-10 transition overflow-hidden">
+                    <div class="grid grid-cols-7  h-full container mx-auto px-7.5 xl:px-32.5">
+                        <!-- 1 column -->
+                        <div id="nav-meanu-column-1-items"
+                            class="transition -translate-x-10 opacity-0 flex flex-col col-span-3 justify-center gap-y-3 px-[15px]">
+
+                            <!-- nav-meanu-heading-1  -->
+                            <div class="">
+                                <!-- outer div -->
+                                <div class="  transition  group  cursor-pointer w-[40%]  ">
+                                    <!-- innner div  -->
+                                    <div id="nav-meanu-home-page-innner-div"
+                                        class="flex items-center translate-y-0 absolut ">
+                                        <div id="nav-meanu-home-page-dot"
+                                            class="bg-[#666666] h-0 w-0 rounded-full transition  group-hover:h-2.5  group-hover:w-2.5">
+                                        </div>
+                                        <h1 id="nav-meanu-home-page"
+                                            class="text-[34px] font-medium text-yellow  transition group-hover:translate-x-4 ">
+                                            Homepage</h1>
+                                    </div>
+                                </div>
+
+                                <div id="nav-meanu-home-page-list"
+                                    class="pl-[27px] mb-4 translate-y-32 hidden  opacity-0">
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[29%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        LANDING PAGE</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[20%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        PERSONAL</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[39%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        PORTFOLIO SLIDER</p>
+                                </div>
+                            </div>
+                            <!-- nav-meanu-heading-2  -->
+                            <div class="">
+                                <!-- outer div -->
+                                <div class="  transition  group  cursor-pointer w-[40%]  ">
+                                    <!-- innner div  -->
+                                    <div id="nav-meanu-Portfolio-innner-div"
+                                        class="flex items-center translate-y-0 absolut ">
+                                        <div id="nav-meanu-Portfolio-dot"
+                                            class="bg-[#666666] h-0 w-0 rounded-full transition  group-hover:h-2.5  group-hover:w-2.5">
+                                        </div>
+                                        <h1 id="nav-meanu-Portfolio"
+                                            class="text-[34px] font-medium text-white  transition group-hover:translate-x-4 ">
+                                            Portfolio</h1>
+                                    </div>
+                                </div>
+
+                                <div id="nav-meanu-Portfolio-list"
+                                    class="pl-[27px] mb-4 translate-y-32 hidden  opacity-0">
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[24%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        GRID TYPE 1</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[24%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        GRID TYPE 2</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[17%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        SLIDER</p>
+                                </div>
+                            </div>
+                            <!-- nav-meanu-heading-3  -->
+                            <div class="">
+                                <!-- outer div -->
+                                <div class="  transition  group  cursor-pointer w-[40%]  ">
+                                    <!-- innner div  -->
+                                    <div id="nav-meanu-Services-innner-div"
+                                        class="flex items-center translate-y-0 absolut ">
+                                        <div id="nav-meanu-Services-dot"
+                                            class="bg-[#666666] h-0 w-0 rounded-full transition  group-hover:h-2.5  group-hover:w-2.5">
+                                        </div>
+                                        <h1 id="nav-meanu-Services"
+                                            class="text-[34px] font-medium text-white  transition group-hover:translate-x-4 ">
+                                            Services</h1>
+                                    </div>
+                                </div>
+
+                                <div id="nav-meanu-Services-list"
+                                    class="pl-[27px] mb-4 translate-y-32 hidden  opacity-0">
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        SERVICES LIST</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        SINGLE SERVICE</p>
+                                </div>
+                            </div>
+                            <!-- nav-meanu-heading-4  -->
+                            <div class="">
+                                <!-- outer div -->
+                                <div class="  transition  group  cursor-pointer w-[40%]  ">
+                                    <!-- innner div  -->
+                                    <div id="nav-meanu-Newsletter-innner-div"
+                                        class="flex items-center translate-y-0 absolut ">
+                                        <div id="nav-meanu-Newsletter-dot"
+                                            class="bg-[#666666] h-0 w-0 rounded-full transition  group-hover:h-2.5  group-hover:w-2.5">
+                                        </div>
+                                        <h1 id="nav-meanu-Newsletter"
+                                            class="text-[34px] font-medium text-white  transition group-hover:translate-x-4 ">
+                                            Newsletter</h1>
+                                    </div>
+                                </div>
+
+                                <div id="nav-meanu-Newsletter-list"
+                                    class="pl-[27px] mb-4 translate-y-32 hidden  opacity-0">
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        Blog LIST</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        PUBLICATION</p>
+                                </div>
+                            </div>
+                            <!-- nav-meanu-heading-5  -->
+                            <div class="">
+                                <!-- outer div -->
+                                <div class="  transition  group  cursor-pointer w-[50%]  ">
+                                    <!-- innner div  -->
+                                    <div id="nav-meanu-Other-Pages-innner-div"
+                                        class="flex items-center translate-y-0 absolut ">
+                                        <div id="nav-meanu-Other-Pages-dot"
+                                            class="bg-[#666666] h-0 w-0 rounded-full transition  group-hover:h-2.5  group-hover:w-2.5">
+                                        </div>
+                                        <h1 id="nav-meanu-other-pages"
+                                            class="text-[34px] font-medium text-white  transition group-hover:translate-x-4 ">
+                                            Other pages</h1>
+                                    </div>
+                                </div>
+
+                                <div id="nav-meanu-Other-Pages-list"
+                                    class="pl-[27px] mb-4 translate-y-32 hidden  opacity-0">
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        TEAM</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        CONTACT</p>
+                                    <p
+                                        class="text-[#ffffff66] text-xs font-medium tracking-[2px] w-[30%] mb-[5px] mt-5 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                        404</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- 2 column -->
+                        <div id="column2"
+                            class="text-white flex flex-col col-span-4 justify-end gap-5 pl-15 pb-15 border-l border-[#1A1A1A] px-[15px] max-[1537px]:hidden transition opacity-0 translate-y-10">
+                            <!-- row-1 -->
+                            <div class="flex justify-between mb-9 ">
+                                <div>
+                                    <h2 class="text-lg text-white font-medium mb-7.5">Projects</h2>
+                                    <div class="cursor-pointer">
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            interior design studio</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Home Security Camera</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Kemia Honest Skincare</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Cascade of Lava</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Air Pro by Molekule</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            Tony's Chocolonely</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h1 class="text-lg text-white font-medium  mb-7.5">Useful links</h1>
+                                    <div class="cursor-pointer">
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Privacy Policy</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Terms and conditions</p>
+                                        <p
+                                            class="text-[#ffffff66] mb-4 transition hover:text-white hover:translate-x-1.5">
+                                            Cookie Policy</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            Careers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="text-[#1A1A1A] mb-9 ">
+                            <!-- row-2 -->
+                            <div class="flex justify-between mb-15">
+                                <div>
+                                    <h1 class="text-lg text-white font-medium  mb-7.5">Canada</h1>
+                                    <div class="cursor-pointer">
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            71 South Los Carneros</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            Road, Cailifornia</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            +51174 705 812</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h1 class="text-lg text-white font-medium  mb-7.5">Germany</h1>
+                                    <div class="cursor-pointer">
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            Leehove 40, 2678 MC De</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            Lier, Netherlands</p>
+                                        <p class="text-[#ffffff66]  transition hover:text-white hover:translate-x-1.5">
+                                            +31 174 705 811 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row-end -->
+                    </div>
+                    <!-- small decdecahrdron  -->
+                    <div class="dodecahedron-wrapperSmall absolute -z-10 rotate-200 -top-65 right-140 max-2xl:hidden">
+                        <div class="dodecahedronSmall" id="dodecahedronSmall">
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="pentagonSmall">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--</nav-meanu> -->
+                <!-- <main-content-in-hero-section> -->
+                <div
+                    class="xl:container xl:mx-auto px-7.5  xl:px-32.5 pb-15 colg:pb-20   xl:pb-30 absolute   -bottom-2  inset-x-0 ">
+                    <!-- first-div-hero  -->
+                    <div class="mb-10 md:mb-15">
+                        <h1
+                            class="text-blend-white text-[34px] md:text-[58px] colg:text-[72px] xl:text-[74px] 2xl:text-[86px] leading-[120%] font-medium">
+                            Designing <span class="font-thin">a Better</span>
+                            <br class="max-md:hidden">
+                            World <span class="font-thin">Today</span>
+                        </h1>
+                    </div>
+                    <!-- second-div-hero  -->
+                    <div class="w-full mb-10 md:mb-15 ">
+                        <p class="text-blend-brown md:w-[60%] colg:w-[40%]  ">
+                            Welcome to our world of endless imagination and boundless creativity. Together, let's embark
+                            on
+                            a remarkable journey where dreams become tangible realities.
+                        </p>
+                    </div>
+                    <!-- last-div-hero  -->
+                    <div class="flex justify-between items-center">
+                        <!-- left-side -->
+                        <div class="max-sm:flex-col flex  justify-center sm:items-center">
+                            <div class="group max-sm:mb-7.5 flex items-center">
+                                <a href="#"
+                                    class=" text-xs font-medium tracking-[2px] h-15  colg:h-17.5 pl-10 colg:pl-12.5 pr-2.5 colg:pr-4  transition  group-hover:scale-101 group-hover:bg-hover-yellow bg-yellow rounded-full flex items-center ">
+                                    WHAT WE DO
+                                    <div class="bg-black transition  group-hover:scale-115
+                                size-10 rounded-full flex justify-center items-center ml-7.5 ">
+                                        <span>
+                                            <svg class=" transition
+                                group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                                                viewBox="0 0 24 24">
+                                                <path fill="none" stroke="#FF9800" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                    d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex items-center sm:ml-7.5 group cursor-pointer">
+                                <a href="#" class="text-[#E1E1E1] text-xs font-medium tracking-[2px]">VIEW WORKS</a>
+                                <div
+                                    class="bg-[#1A1A1A] transition group-hover:size-11 size-10 rounded-full flex justify-center items-center ml-4 ">
+                                    <span>
+                                        <svg class=" transition group-hover:size-[30px]"
+                                            xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#fff" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right-side -->
+                        <div
+                            class="absolute right-12.5 bottom-2.5 w-[300px] h-[300px] group  overflow-hidden   max-colg:hidden ">
+                            <!-- Curved Text SVG -->
+                            <!-- Curved Text SVG -->
+                            <svg class="absolute inset-0 w-full h-full group" viewBox="0 0 300 300">
+                                <defs>
+                                    <path id="circlePath" d="M150,150 m -55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"
+                                        fill="none" />
+                                </defs>
+
+                                <!-- 🔁 Add this group to rotate the text -->
+                                <g id="rotating-group">
+                                    <text
+                                        class="fill-current text-[#616161] font-bold group-hover:text-white transition-all duration-300"
+                                        font-size="11.5" font-family="sans-serif">
+                                        <textPath href="#circlePath" startOffset="-43" text-anchor="start"
+                                            class="[letter-spacing:6px]">
+                                            – SCROLL DOWN – SCROLL DOWN –
+                                        </textPath>
+                                    </text>
+                                </g>
+                            </svg>
+
+                            <!-- Center Circular Button -->
+                            <div
+                                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group cursor-pointer">
+                                <div id="Circular-Button-Main-bg"
+                                    class="bg-yellow size-17.5 rounded-full flex justify-center items-center">
+                                    <div id="Circular-Button-Second-bg"
+                                        class="bg-black transition size-10 rounded-full flex justify-center items-center">
+                                        <span>
+                                            <svg id="Circular-Button-svg"
+                                                class="transition-all duration-1000 ease-[cubic-bezier(0, 0, 0.3642, 1)]  rotate-90"
+                                                xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                                                viewBox="0 0 24 24">
+                                                <path fill="none" stroke="#FF9800" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                    d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- big-dodecahedron -->
+                <div class="dodecahedron-wrapper absolute -z-10 -top-35 right-50">
+                    <div class="dodecahedron" id="dodecahedron">
+                        <!-- 12 pentagon faces -->
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- small decdecahrdron  -->
+                <div class="dodecahedron-wrapperSmall absolute -z-10 -top-25 left-90 max-2xl:hidden">
+                    <div class="dodecahedronSmall" id="dodecahedronSmall">
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra small decdecahrdron  -->
+                <div class="dodecahedron-wrapperExtraSmall absolute -z-10 -bottom-35 left-200 max-2xl:hidden">
+                    <div class="dodecahedronExtraSmall" id="dodecahedronExtraSmall">
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="pentagonExtraSmall">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+        <!-- <section-2></section-2> -->
+        <section id="white-section" class="bg-white relative z-10   ">
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5 ">
+                <div class="flex max-colg:flex-col justify-between py-22.5 colg:py-30  ">
+                    <!-- left-side -->
+                    <div class="flex flex-col justify-center max-colg:mb-22.5">
+                        <h1
+                            class="reveal-on-scroll text-black text-[36px] md:text-[44px] colg:text-[56px] xl:text-[68px] font-medium mb-15 leading-9 md:leading-11 colg:leading-14 xl:leading-18">
+                            Discover
+                            <br class="max-md:hidden">
+                            Our
+                            <span class="font-thin">Studio</span>
+                        </h1>
+                        <p
+                            class="reveal-on-scroll text-[#858585] text-[15px] md:text-base colg:w-[60%] mb-7.5 font-light">
+                            At our design studio, we are a collective of talented ignited by our unwavering passion for
+                            transforming ideas into reality. With a harmonious blend of backgrounds and a vast array of
+                            skill sets, we join forces to create compelling solutions for our clients.</p>
+                        <p
+                            class=" reveal-on-scroll text-[#858585] text-[15px] md:text-base colg:w-[65%] mb-15 font-light">
+                            Collaboration is at the heart of what we do. Our team thrives on the synergy that arises
+                            when unique perspectives converge, environment of boundless creativity. By harnessing our
+                            collective expertise, we produce extraordinary results that consistently surpass
+                            expectations.
+                        </p>
+                        <div class="reveal-on-scroll flex items-center ">
+                            <div class="relative shrink-0">
+                                <img class="size-17.5 colg:size-22.5 rounded-full object-cover object-top shrink-0 "
+                                    src="img4/2.jpg" alt="">
+                                <div
+                                    class="bg-yellow size-[25px] colg:size-7.5 rounded-full flex justify-center items-center text-[23px] colg:text-[30px] absolute top-12 colg:top-16 right-0">
+                                    <span class="absolute top-[1px] tracking-[-2px]">''</span>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col pl-6 colg:pl-7.5">
+                                <h4 class="colg:text-lg font-semibold">Passionately Creating <span
+                                        class="font-thin">Design
+                                        Wonders:</span></h4>
+                                <h4 class="colg:text-lg font-semibold">Unleashing <span class="font-thin">Boundless
+                                        Creativity</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- svg  -->
+                    <div class="relative -z-20 max-colg:hidden">
+                        <span class="absolute -top-[234px] -right-31  -z-50 ">
+                            <svg width="250" height="1400" viewBox="0 0 300 1404" fill="#F2F2F2"
+                                xmlns="http://www.w3.org/2000/svg" class="mil-lines">
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z">
+                                </path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z">
+                                </path>
+                                <path class=" svg2Animatio" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z">
+                                </path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z"></path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z">
+                                </path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 1175H0V1174H300V1175Z"></path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z">
+                                </path>
+                                <path class=" svg2Animation" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <!-- right-side -->
+                    <div class="reveal-on-scroll">
+                        <div class="colg:w-113 w-full colg:min-h-185 overflow-hidden">
+                            <img id="zoomImage"
+                                class="zoom-image transition duration-700 scale-x-117 scale-y-126 object-cover "
+                                src="img4/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section-3></section-3> -->
+        <section class="bg-black relative z-20 pt-22.5 colg:pt-30 overflow-hidden   ">
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5  ">
+                <div>
+                    <!-- first-part  -->
+                    <div class="mb-22.5 colg:mb-30">
+                        <div class="flex justify-center md:justify-end relative mb-12  colg:right-49 ">
+                            <h3 class="reveal-on-scroll text-[#616161] text-[15px] md:text-base text-center">
+                                Professionals focused on
+                                helping
+                                your brand
+                                <hr class="text-[#3a3737] absolute w-90 -right-98 top-2.5 max-colg:hidden ">
+                                <br>
+                                <span class="flex justify-center md:justify-end">grow and move forward.</span>
+                            </h3>
+                        </div>
+                        <div class="flex flex-col ">
+                            <div class="reveal-on-scroll flex items-center justify-center ">
+                                <div class="h-20 w-62.5  rounded-full overflow-hidden mr-7.5 max-md:hidden">
+                                    <img class="object-cover object-top shrink-0 transition hover:scale-105  "
+                                        src="img4/3.jpg" alt="">
+                                </div>
+                                <h1
+                                    class="text-[34px] md:text-[58px] colg:text-[72px] xl:text-[74px] 2xl:text-[86px] text-white font-medium text-center max-md:mb-[0px]">
+                                    Unique <span class="font-thin">Ideas</span>
+                                    <br>
+                                </h1>
+                            </div>
+                            <div class="reveal-on-scroll flex max-md:flex-col items-center justify-center mt-4    ">
+                                <h1
+                                    class="text-[34px] md:text-[58px] colg:text-[72px] xl:text-[74px] 2xl:text-[86px] text-white font-medium text-center leading-10 sm:flex    ">
+                                    For Your
+                                    <span class="font-thin pl-2.5">Business.</span>
+                                </h1>
+                                <div class="group shrink-0 flex items-center md:ml-7.5 max-md:mt-15 justify-center">
+                                    <a href="#"
+                                        class="text-xs font-medium tracking-[2px] h-15  colg:h-17.5 pl-10 colg:pl-12.5 pr-2.5 colg:pr-4  transition  group-hover:scale-101 group-hover:bg-hover-yellow bg-yellow rounded-full flex items-center ">
+                                        WHAT WE DO
+                                        <div class="bg-black transition  group-hover:scale-115
+                                size-10 rounded-full flex justify-center items-center ml-7.5 ">
+                                            <span>
+                                                <svg class=" transition
+                                group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="none" stroke="#FF9800" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-miterlimit="10"
+                                                        stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second-part  -->
+                    <div class="grid md:grid-cols-2 colg:grid-cols-4 max-colg:pb-22.5">
+                        <!-- card-1  -->
+                        <div
+                            class="max-md:border-x-1 md:border-r-1 border-y-1 border-[#33333380] pb-23 pt-15 px-7.5 sm:px-8 cursor-pointer group relative">
+                            <div class="absolute transition bg-yellow h-1 w-0 group-hover:w-full top-0 left-0"></div>
+                            <div class="reveal-on-scroll">
+                                <h3 class="font-medium text-lg md:text-xl mb-7.5 text-[#E6E6E6]">Branding
+                                    and
+                                    <br class="max-md:hidden">
+                                    identity Design
+                                </h3>
+                                <p
+                                    class="text-[#555555] text-[15px] md:text-base mb-7.5 transition opacity-0 translate-y-3 colg:group-hover:opacity-100 max-colg:opacity-100 colg:group-hover:-translate-y-0 max-colg:-translate-y-0">
+                                    Our Creative agency is team of professionals focused on helping
+                                    your brand grow.</p>
+                                <div
+                                    class="bg-[#4a4a4a] transition size-3 colg:group-hover:size-10 max-colg:size-10 colg:group-hover:bg-yellow max-colg:bg-yellow rounded-full flex items-center justify-center relative colg:absolute ml-2 group-hover:ml-0">
+                                    <span>
+                                        <svg class=" transition colg:group-hover:size-7 max-colg:size-7 "
+                                            xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-2  -->
+                        <div
+                            class="max-md:border-x-1 md:border-r-1 border-y-1 border-[#33333380] pb-23 pt-15 px-8 cursor-pointer group relative">
+                            <div class="absolute transition bg-yellow h-1 w-0 group-hover:w-full top-0 left-0"></div>
+                            <div class="reveal-on-scroll ">
+                                <h3 class=" font-medium text-lg md:text-xl mb-7.5 text-[#E6E6E6]">Website
+                                    Design
+                                    <br class="max-md:hidden">
+                                    and develompent
+                                </h3>
+                                <p
+                                    class="text-[#555555] text-[15px] md:text-base mb-7.5 transition opacity-0 translate-y-3 colg:group-hover:opacity-100 max-colg:opacity-100 colg:group-hover:-translate-y-0 max-colg:-translate-y-0">
+                                    Our Creative agency is team of professionals focused on helping
+                                    your brand grow.</p>
+                                <div
+                                    class="bg-[#4a4a4a] transition size-3 colg:group-hover:size-10 max-colg:size-10 colg:group-hover:bg-yellow max-colg:bg-yellow rounded-full flex items-center justify-center relative colg:absolute ml-2 group-hover:ml-0">
+                                    <span>
+                                        <svg class=" transition colg:group-hover:size-7 max-colg:size-7 "
+                                            xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-3  -->
+                        <div
+                            class="max-md:border-x-1 md:border-r-1 border-y-1 border-[#33333380] pb-23 pt-15 px-8 cursor-pointer group relative">
+                            <div class="absolute transition bg-yellow h-1 w-0 group-hover:w-full top-0 left-0"></div>
+                            <div class="reveal-on-scroll">
+                                <h3 class=" font-medium text-lg md:text-xl mb-7.5 text-[#E6E6E6]">
+                                    Advertising and
+                                    <br class="max-md:hidden">
+                                    Marketing Campaigns
+                                </h3>
+                                <p
+                                    class="text-[#555555] text-[15px] md:text-base mb-7.5 transition opacity-0 translate-y-3 colg:group-hover:opacity-100 max-colg:opacity-100 colg:group-hover:-translate-y-0 max-colg:-translate-y-0">
+                                    Our Creative agency is team of professionals focused on helping
+                                    your brand grow.</p>
+                                <div
+                                    class="bg-[#4a4a4a] transition size-3 colg:group-hover:size-10 max-colg:size-10 colg:group-hover:bg-yellow max-colg:bg-yellow rounded-full flex items-center justify-center relative colg:absolute ml-2 group-hover:ml-0">
+                                    <span>
+                                        <svg class=" transition colg:group-hover:size-7 max-colg:size-7 "
+                                            xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-4  -->
+                        <div
+                            class="max-md:border-x-1 md:border-r-1 border-y-1 border-[#33333380] pb-23 pt-15 px-8 cursor-pointer group relative">
+                            <div class="absolute transition bg-yellow h-1 w-0 group-hover:w-full top-0 left-0"></div>
+                            <div class="reveal-on-scroll">
+                                <h3 class=" font-medium text-lg md:text-xl mb-7.5 text-[#E6E6E6]">Creative
+                                    Consulting
+                                    <br class="max-md:hidden">
+                                    and Develompent
+                                </h3>
+                                <p
+                                    class="text-[#555555] text-[15px] md:text-base mb-7.5 transition opacity-0 translate-y-3 colg:group-hover:opacity-100 max-colg:opacity-100 colg:group-hover:-translate-y-0 max-colg:-translate-y-0">
+                                    Our Creative agency is team of professionals focused on helping
+                                    your brand grow.</p>
+                                <div
+                                    class="bg-[#4a4a4a] transition size-3 colg:group-hover:size-10 max-colg:size-10 colg:group-hover:bg-yellow max-colg:bg-yellow rounded-full flex items-center justify-center relative colg:absolute ml-2 group-hover:ml-0">
+                                    <span>
+                                        <svg class=" transition colg:group-hover:size-7 max-colg:size-7 "
+                                            xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- small decdecahrdron  -->
+            <div class="dodecahedron-wrapperSmall absolute -z-10 top-70 right-20  ">
+                <div class="dodecahedronSmall" id="dodecahedronSmall">
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extra small decdecahrdron  -->
+            <div class="dodecahedron-wrapperExtraSmall absolute -z-10 -top-10 left-65 max-colg:hidden">
+                <div class="dodecahedronExtraSmall" id="dodecahedronExtraSmall">
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="pentagonExtraSmall">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <section-4></section-4> -->
+        <section id="white-section" class="bg-white relative z-0  ">
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5">
+                <div class="flex max-colg:flex-col justify-between pt-22.5 pb-22.5 colg:pt-30 colg:pb-30">
+                    <!-- left-side -->
+                    <div class="flex flex-col  justify-center mb-22.5">
+                        <h1
+                            class="reveal-on-scroll text-black font-medium text-[36px] md:text-[44px] colg:text-[56px] xl:text-[68px] mb-15 leading-9 md:leading-13.5 colg:leading-19">
+                            Meet
+                            <br class="max-colg:hidden">
+                            Our Team
+                        </h1>
+                        <p class="reveal-on-scroll text-[#7F7F7F] colg:w-[80%] xl:w-[65%] font-light mb-7.5">We are
+                            talented individuals who are passionate about bringing ideas to life With a diverse range of
+                            backgrounds and skill
+                            sets, we collaborate to produce effective solutions for our clients.</p>
+                        <p class="reveal-on-scroll text-[#7F7F7F] colg:w-[80%] xl:w-[62%] font-light mb-15">Together,
+                            our creative team is committed to delivering impactful work that exceeds expectations.</p>
+                        <div class="group shrink-0 flex items-center  mb-15 cursor-pointer">
+                            <a href="#"
+                                class="reveal-on-scroll text-xs font-medium tracking-[2px] h-15  colg:h-17.5 pl-10 colg:pl-12.5 pr-2.5 colg:pr-4  transition  group-hover:scale-101 group-hover:bg-hover-yellow bg-yellow rounded-full flex items-center ">
+                                READ MORE
+                                <div class="bg-black transition  group-hover:scale-115
+                                size-10 rounded-full flex justify-center items-center ml-7.5 ">
+                                    <span>
+                                        <svg class="transition
+                                group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#FF9800" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                                d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <h3
+                            class="reveal-on-scroll font-medium text-[22px] md:text-[24px] colg:text-[26px] xl:text-[28px] leading-8 max-md:flex max-md:flex-wrap gap-1">
+                            <span class="font-thin">We</span>
+                            delivering
+                            <br class="hidden md:block">
+                            <span class="font-thin">exceptional</span>
+                            results.
+                        </h3>
+                    </div>
+                    <!-- svg  -->
+                    <div class="relative right-[109px] -z-5 -top[100px] bottom-[115px] max-colg:hidden">
+                        <span class="absolute svg2Animation ">
+                            <svg width="250" viewBox="0 0 300 1404" fill="#F2F2F2" xmlns="http://www.w3.org/2000/svg"
+                                class="mil-lines">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z"
+                                    class="mil-move"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z"
+                                    class="mil-move"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z">
+                                </path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z"
+                                    class="mil-move"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M300 1175H0V1174H300V1175Z"
+                                    class="mil-move">
+                                </path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z"
+                                    class="mil-move"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z" class="mil-move"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <!-- right-side  -->
+                    <div class="colg:w-[135%] xl:w-[114%]">
+                        <div class="flex max-sm:flex-col">
+                            <div class="flex flex-col gap-7.5">
+                                <!-- img-1  -->
+                                <div class="relative group  w-fit h-fit sm:px-[15px]">
+                                    <div class="overflow-hidden ">
+                                        <img class="reveal-on-scroll scale-105  group-hover:scale-100" src="img4/4.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="relative bottom-38 justify-center ">
+                                        <div
+                                            class="flex flex-col w-full  absolute z-10 transition opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0">
+                                            <span
+                                                class="text-center text-white mb-[5px] text-xl font-medium transition hover:text-yellow cursor-pointer">Anna
+                                                Oldman</span>
+                                            <span
+                                                class="text-center text-[#6A6867] text-xs tracking-[2px] font-semibold mb-2.5">ART
+                                                DIRECTOR</span>
+                                            <span class="flex items-center justify-center gap-2">
+                                                <!-- icon-1  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 20 20">
+                                                        <path fill="currentColor"
+                                                            d="M8.072 9.301s1.892-.147 1.892-2.459c0-2.315-1.548-3.441-3.51-3.441H0v12.926h6.454s3.941.129 3.941-3.816c-.001-.001.171-3.21-2.323-3.21M2.844 5.697h3.61s.878 0 .878 1.344c0 1.346-.516 1.541-1.102 1.541H2.844zm3.427 8.332H2.844v-3.455h3.61s1.308-.018 1.308 1.775c0 1.512-.977 1.669-1.491 1.68m9.378-7.341c-4.771 0-4.767 4.967-4.767 4.967s-.326 4.941 4.767 4.941c0 0 4.243.254 4.243-3.437H17.71s.072 1.391-1.988 1.391c0 0-2.184.152-2.184-2.25h6.423c.001-.001.709-5.612-4.312-5.612m1.941 3.886h-4.074s.266-1.992 2.182-1.992s1.892 1.992 1.892 1.992m.507-6.414H12.98v1.594h5.117z"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-2  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        viewBox="0 0 24 24">
+                                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="1.5">
+                                                            <circle cx="12" cy="12" r="9.25" />
+                                                            <path
+                                                                d="M18.54 18.54s-1.852-4.79-5.415-8.227s-8.823-3.445-8.823-3.445" />
+                                                            <path
+                                                                d="M13.912 13.912c2.241-2.242 4.86-3.613 7.113-3.927a9.24 9.24 0 0 1-2.484 8.555a9.24 9.24 0 0 1-8.557 2.486c.315-2.254 1.686-4.873 3.928-7.114M5.46 5.459a9.24 9.24 0 0 1 8.554-2.485c-.314 2.253-1.685 4.872-3.926 7.114S5.227 13.7 2.973 14.015A9.24 9.24 0 0 1 5.46 5.459" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-3  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 24 24">
+                                                        <path fill="currentColor"
+                                                            d="M21.81 6.227c.058-.08-.028-.185-.12-.149a8.5 8.5 0 0 1-2.05.513a4.13 4.13 0 0 0 1.72-2.02c.034-.086-.06-.163-.14-.118c-.727.401-1.51.69-2.325.857a.1.1 0 0 1-.093-.03a4.1 4.1 0 0 0-6.991 3.65a.102.102 0 0 1-.104.123a11.64 11.64 0 0 1-8.224-4.17a.098.098 0 0 0-.163.015a4.16 4.16 0 0 0-.48 1.943a4.09 4.09 0 0 0 1.82 3.41a4.05 4.05 0 0 1-1.709-.43c-.068-.035-.15.014-.147.09a4.23 4.23 0 0 0 .933 2.468A4.1 4.1 0 0 0 6.1 13.79a4 4 0 0 1-1.1.17a5 5 0 0 1-.606-.045c-.075-.01-.136.06-.11.13A4.11 4.11 0 0 0 8.06 16.73a8.22 8.22 0 0 1-5.625 1.741c-.106-.007-.155.134-.064.188a11.57 11.57 0 0 0 5.919 1.62A11.59 11.59 0 0 0 20 8.6v-.48a.1.1 0 0 1 .04-.08a8.4 8.4 0 0 0 1.77-1.813"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-4  -->
+                                                <span class="relative flex justify-center items-center ">
+                                                    <svg class=" text-white transition hover:text-yellow cursor-pointer "
+                                                        xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                                                        viewBox="0 0 50 50">
+                                                        <path fill="currentColor" fill-rule="evenodd"
+                                                            d="M25 10c-8.3 0-15 6.7-15 15c0 6.6 4.3 12.2 10.3 14.2c.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2c-.7-1.7-1.7-2.2-1.7-2.2c-1.4-.9.1-.9.1-.9c1.5.1 2.3 1.5 2.3 1.5c1.3 2.3 3.5 1.6 4.4 1.2c.1-1 .5-1.6 1-2c-3.3-.4-6.8-1.7-6.8-7.4c0-1.6.6-3 1.5-4c-.2-.4-.7-1.9.1-4c0 0 1.3-.4 4.1 1.5c1.2-.3 2.5-.5 3.8-.5s2.6.2 3.8.5c2.9-1.9 4.1-1.5 4.1-1.5c.8 2.1.3 3.6.1 4c1 1 1.5 2.4 1.5 4c0 5.8-3.5 7-6.8 7.4c.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7c6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10"
+                                                            clip-rule="evenodd" stroke-width="1.5"
+                                                            stroke="currentColor" />
+                                                    </svg>
+                                                    <div class="bg-black size-[18px] rounded-full absolute -z-10"></div>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 transition group-hover:bg-black/80 mx-4"></div>
+                                    <div class="relative">
+                                        <div
+                                            class=" px-0 w-0 h-[4px] group-hover:w-full transition bg-yellow absolute bottom-[0.3px] group-hover:px-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- img-2  -->
+                                <div class="relative group inline-block w-fit h-fit sm:px-[15px]">
+                                    <div class="overflow-hidden ">
+                                        <img class="reveal-on-scroll scale-105  group-hover:scale-100" src="img4/5.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="relative bottom-38 justify-center ">
+                                        <div
+                                            class="flex flex-col w-full  absolute z-10 transition opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0">
+                                            <span
+                                                class="text-center text-white mb-[5px] text-xl font-medium transition hover:text-yellow cursor-pointer">Oscar
+                                                Freeman</span>
+                                            <span
+                                                class="text-center text-[#6A6867] text-xs tracking-[2px] font-semibold mb-2.5">FRONTEND
+                                                DEV</span>
+                                            <span class="flex items-center justify-center gap-2">
+                                                <!-- icon-1  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 20 20">
+                                                        <path fill="currentColor"
+                                                            d="M8.072 9.301s1.892-.147 1.892-2.459c0-2.315-1.548-3.441-3.51-3.441H0v12.926h6.454s3.941.129 3.941-3.816c-.001-.001.171-3.21-2.323-3.21M2.844 5.697h3.61s.878 0 .878 1.344c0 1.346-.516 1.541-1.102 1.541H2.844zm3.427 8.332H2.844v-3.455h3.61s1.308-.018 1.308 1.775c0 1.512-.977 1.669-1.491 1.68m9.378-7.341c-4.771 0-4.767 4.967-4.767 4.967s-.326 4.941 4.767 4.941c0 0 4.243.254 4.243-3.437H17.71s.072 1.391-1.988 1.391c0 0-2.184.152-2.184-2.25h6.423c.001-.001.709-5.612-4.312-5.612m1.941 3.886h-4.074s.266-1.992 2.182-1.992s1.892 1.992 1.892 1.992m.507-6.414H12.98v1.594h5.117z"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-2  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        viewBox="0 0 24 24">
+                                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="1.5">
+                                                            <circle cx="12" cy="12" r="9.25" />
+                                                            <path
+                                                                d="M18.54 18.54s-1.852-4.79-5.415-8.227s-8.823-3.445-8.823-3.445" />
+                                                            <path
+                                                                d="M13.912 13.912c2.241-2.242 4.86-3.613 7.113-3.927a9.24 9.24 0 0 1-2.484 8.555a9.24 9.24 0 0 1-8.557 2.486c.315-2.254 1.686-4.873 3.928-7.114M5.46 5.459a9.24 9.24 0 0 1 8.554-2.485c-.314 2.253-1.685 4.872-3.926 7.114S5.227 13.7 2.973 14.015A9.24 9.24 0 0 1 5.46 5.459" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-3  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 24 24">
+                                                        <path fill="currentColor"
+                                                            d="M21.81 6.227c.058-.08-.028-.185-.12-.149a8.5 8.5 0 0 1-2.05.513a4.13 4.13 0 0 0 1.72-2.02c.034-.086-.06-.163-.14-.118c-.727.401-1.51.69-2.325.857a.1.1 0 0 1-.093-.03a4.1 4.1 0 0 0-6.991 3.65a.102.102 0 0 1-.104.123a11.64 11.64 0 0 1-8.224-4.17a.098.098 0 0 0-.163.015a4.16 4.16 0 0 0-.48 1.943a4.09 4.09 0 0 0 1.82 3.41a4.05 4.05 0 0 1-1.709-.43c-.068-.035-.15.014-.147.09a4.23 4.23 0 0 0 .933 2.468A4.1 4.1 0 0 0 6.1 13.79a4 4 0 0 1-1.1.17a5 5 0 0 1-.606-.045c-.075-.01-.136.06-.11.13A4.11 4.11 0 0 0 8.06 16.73a8.22 8.22 0 0 1-5.625 1.741c-.106-.007-.155.134-.064.188a11.57 11.57 0 0 0 5.919 1.62A11.59 11.59 0 0 0 20 8.6v-.48a.1.1 0 0 1 .04-.08a8.4 8.4 0 0 0 1.77-1.813"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-4  -->
+                                                <span class="relative flex justify-center items-center ">
+                                                    <svg class=" text-white transition hover:text-yellow cursor-pointer "
+                                                        xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                                                        viewBox="0 0 50 50">
+                                                        <path fill="currentColor" fill-rule="evenodd"
+                                                            d="M25 10c-8.3 0-15 6.7-15 15c0 6.6 4.3 12.2 10.3 14.2c.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2c-.7-1.7-1.7-2.2-1.7-2.2c-1.4-.9.1-.9.1-.9c1.5.1 2.3 1.5 2.3 1.5c1.3 2.3 3.5 1.6 4.4 1.2c.1-1 .5-1.6 1-2c-3.3-.4-6.8-1.7-6.8-7.4c0-1.6.6-3 1.5-4c-.2-.4-.7-1.9.1-4c0 0 1.3-.4 4.1 1.5c1.2-.3 2.5-.5 3.8-.5s2.6.2 3.8.5c2.9-1.9 4.1-1.5 4.1-1.5c.8 2.1.3 3.6.1 4c1 1 1.5 2.4 1.5 4c0 5.8-3.5 7-6.8 7.4c.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7c6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10"
+                                                            clip-rule="evenodd" stroke-width="1.5"
+                                                            stroke="currentColor" />
+                                                    </svg>
+                                                    <div class="bg-black size-[18px] rounded-full absolute -z-10"></div>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 transition group-hover:bg-black/80 mx-4"></div>
+                                    <div class="relative">
+                                        <div
+                                            class=" px-0 w-0 h-[4px] group-hover:w-full transition bg-yellow absolute bottom-[0.3px] group-hover:px-4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-7.5">
+                                <div class="text-[15px] text-[#9F9F9F] font-light pl-3 max-colg:hidden">
+                                    <span class="text-yellow">*</span>
+                                    The founders of our agency
+                                </div>
+                                <!-- img-3  -->
+                                <div class="relative group  inline-block w-fit h-fit sm:px-[15px] max-sm:mt-7.5">
+                                    <div class="overflow-hidden">
+                                        <img class="reveal-on-scroll transition scale-105 group-hover:scale-100"
+                                            src="img4/6.jpg" alt="">
+                                    </div>
+                                    <div class="relative bottom-38 justify-center ">
+                                        <div
+                                            class="flex flex-col w-full  absolute z-10 transition opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0">
+                                            <span
+                                                class="text-center text-white mb-[5px] text-xl font-medium transition hover:text-yellow cursor-pointer">Emma
+                                                Newman</span>
+                                            <span
+                                                class="text-center text-[#6A6867] text-xs tracking-[2px] font-semibold mb-2.5">FOUNDER</span>
+                                            <span class="flex items-center justify-center gap-2">
+                                                <!-- icon-1  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 20 20">
+                                                        <path fill="currentColor"
+                                                            d="M8.072 9.301s1.892-.147 1.892-2.459c0-2.315-1.548-3.441-3.51-3.441H0v12.926h6.454s3.941.129 3.941-3.816c-.001-.001.171-3.21-2.323-3.21M2.844 5.697h3.61s.878 0 .878 1.344c0 1.346-.516 1.541-1.102 1.541H2.844zm3.427 8.332H2.844v-3.455h3.61s1.308-.018 1.308 1.775c0 1.512-.977 1.669-1.491 1.68m9.378-7.341c-4.771 0-4.767 4.967-4.767 4.967s-.326 4.941 4.767 4.941c0 0 4.243.254 4.243-3.437H17.71s.072 1.391-1.988 1.391c0 0-2.184.152-2.184-2.25h6.423c.001-.001.709-5.612-4.312-5.612m1.941 3.886h-4.074s.266-1.992 2.182-1.992s1.892 1.992 1.892 1.992m.507-6.414H12.98v1.594h5.117z"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-2  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        viewBox="0 0 24 24">
+                                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="1.5">
+                                                            <circle cx="12" cy="12" r="9.25" />
+                                                            <path
+                                                                d="M18.54 18.54s-1.852-4.79-5.415-8.227s-8.823-3.445-8.823-3.445" />
+                                                            <path
+                                                                d="M13.912 13.912c2.241-2.242 4.86-3.613 7.113-3.927a9.24 9.24 0 0 1-2.484 8.555a9.24 9.24 0 0 1-8.557 2.486c.315-2.254 1.686-4.873 3.928-7.114M5.46 5.459a9.24 9.24 0 0 1 8.554-2.485c-.314 2.253-1.685 4.872-3.926 7.114S5.227 13.7 2.973 14.015A9.24 9.24 0 0 1 5.46 5.459" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-3  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 24 24">
+                                                        <path fill="currentColor"
+                                                            d="M21.81 6.227c.058-.08-.028-.185-.12-.149a8.5 8.5 0 0 1-2.05.513a4.13 4.13 0 0 0 1.72-2.02c.034-.086-.06-.163-.14-.118c-.727.401-1.51.69-2.325.857a.1.1 0 0 1-.093-.03a4.1 4.1 0 0 0-6.991 3.65a.102.102 0 0 1-.104.123a11.64 11.64 0 0 1-8.224-4.17a.098.098 0 0 0-.163.015a4.16 4.16 0 0 0-.48 1.943a4.09 4.09 0 0 0 1.82 3.41a4.05 4.05 0 0 1-1.709-.43c-.068-.035-.15.014-.147.09a4.23 4.23 0 0 0 .933 2.468A4.1 4.1 0 0 0 6.1 13.79a4 4 0 0 1-1.1.17a5 5 0 0 1-.606-.045c-.075-.01-.136.06-.11.13A4.11 4.11 0 0 0 8.06 16.73a8.22 8.22 0 0 1-5.625 1.741c-.106-.007-.155.134-.064.188a11.57 11.57 0 0 0 5.919 1.62A11.59 11.59 0 0 0 20 8.6v-.48a.1.1 0 0 1 .04-.08a8.4 8.4 0 0 0 1.77-1.813"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-4  -->
+                                                <span class="relative flex justify-center items-center ">
+                                                    <svg class=" text-white transition hover:text-yellow cursor-pointer "
+                                                        xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                                                        viewBox="0 0 50 50">
+                                                        <path fill="currentColor" fill-rule="evenodd"
+                                                            d="M25 10c-8.3 0-15 6.7-15 15c0 6.6 4.3 12.2 10.3 14.2c.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2c-.7-1.7-1.7-2.2-1.7-2.2c-1.4-.9.1-.9.1-.9c1.5.1 2.3 1.5 2.3 1.5c1.3 2.3 3.5 1.6 4.4 1.2c.1-1 .5-1.6 1-2c-3.3-.4-6.8-1.7-6.8-7.4c0-1.6.6-3 1.5-4c-.2-.4-.7-1.9.1-4c0 0 1.3-.4 4.1 1.5c1.2-.3 2.5-.5 3.8-.5s2.6.2 3.8.5c2.9-1.9 4.1-1.5 4.1-1.5c.8 2.1.3 3.6.1 4c1 1 1.5 2.4 1.5 4c0 5.8-3.5 7-6.8 7.4c.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7c6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10"
+                                                            clip-rule="evenodd" stroke-width="1.5"
+                                                            stroke="currentColor" />
+                                                    </svg>
+                                                    <div class="bg-black size-[18px] rounded-full absolute -z-10"></div>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 transition group-hover:bg-black/80 mx-4"></div>
+                                    <div class="relative">
+                                        <div
+                                            class=" px-0 w-0 h-[4px] group-hover:w-full transition bg-yellow absolute bottom-[0.3px] group-hover:px-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- img-4  -->
+                                <div class="relative group inline-block w-fit h-fit sm:px-[15px]">
+                                    <div class="overflow-hidden ">
+                                        <img class="reveal-on-scroll scale-105  group-hover:scale-100" src="img4/7.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="relative bottom-38 justify-center ">
+                                        <div
+                                            class="flex flex-col w-full  absolute z-10 transition opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0">
+                                            <span
+                                                class="text-center text-white mb-[5px] text-xl font-medium transition hover:text-yellow cursor-pointer">Lisa
+                                                Trueman</span>
+                                            <span
+                                                class="text-center text-[#6A6867] text-xs tracking-[2px] font-semibold mb-2.5">UI/UX
+                                                DESIGNER</span>
+                                            <span class="flex items-center justify-center gap-2">
+                                                <!-- icon-1  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 20 20">
+                                                        <path fill="currentColor"
+                                                            d="M8.072 9.301s1.892-.147 1.892-2.459c0-2.315-1.548-3.441-3.51-3.441H0v12.926h6.454s3.941.129 3.941-3.816c-.001-.001.171-3.21-2.323-3.21M2.844 5.697h3.61s.878 0 .878 1.344c0 1.346-.516 1.541-1.102 1.541H2.844zm3.427 8.332H2.844v-3.455h3.61s1.308-.018 1.308 1.775c0 1.512-.977 1.669-1.491 1.68m9.378-7.341c-4.771 0-4.767 4.967-4.767 4.967s-.326 4.941 4.767 4.941c0 0 4.243.254 4.243-3.437H17.71s.072 1.391-1.988 1.391c0 0-2.184.152-2.184-2.25h6.423c.001-.001.709-5.612-4.312-5.612m1.941 3.886h-4.074s.266-1.992 2.182-1.992s1.892 1.992 1.892 1.992m.507-6.414H12.98v1.594h5.117z"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-2  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        viewBox="0 0 24 24">
+                                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="1.5">
+                                                            <circle cx="12" cy="12" r="9.25" />
+                                                            <path
+                                                                d="M18.54 18.54s-1.852-4.79-5.415-8.227s-8.823-3.445-8.823-3.445" />
+                                                            <path
+                                                                d="M13.912 13.912c2.241-2.242 4.86-3.613 7.113-3.927a9.24 9.24 0 0 1-2.484 8.555a9.24 9.24 0 0 1-8.557 2.486c.315-2.254 1.686-4.873 3.928-7.114M5.46 5.459a9.24 9.24 0 0 1 8.554-2.485c-.314 2.253-1.685 4.872-3.926 7.114S5.227 13.7 2.973 14.015A9.24 9.24 0 0 1 5.46 5.459" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-3  -->
+                                                <span>
+                                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                        viewBox="0 0 24 24">
+                                                        <path fill="currentColor"
+                                                            d="M21.81 6.227c.058-.08-.028-.185-.12-.149a8.5 8.5 0 0 1-2.05.513a4.13 4.13 0 0 0 1.72-2.02c.034-.086-.06-.163-.14-.118c-.727.401-1.51.69-2.325.857a.1.1 0 0 1-.093-.03a4.1 4.1 0 0 0-6.991 3.65a.102.102 0 0 1-.104.123a11.64 11.64 0 0 1-8.224-4.17a.098.098 0 0 0-.163.015a4.16 4.16 0 0 0-.48 1.943a4.09 4.09 0 0 0 1.82 3.41a4.05 4.05 0 0 1-1.709-.43c-.068-.035-.15.014-.147.09a4.23 4.23 0 0 0 .933 2.468A4.1 4.1 0 0 0 6.1 13.79a4 4 0 0 1-1.1.17a5 5 0 0 1-.606-.045c-.075-.01-.136.06-.11.13A4.11 4.11 0 0 0 8.06 16.73a8.22 8.22 0 0 1-5.625 1.741c-.106-.007-.155.134-.064.188a11.57 11.57 0 0 0 5.919 1.62A11.59 11.59 0 0 0 20 8.6v-.48a.1.1 0 0 1 .04-.08a8.4 8.4 0 0 0 1.77-1.813"
+                                                            stroke-width="0.5" stroke="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <!-- icon-4  -->
+                                                <span class="relative flex justify-center items-center ">
+                                                    <svg class=" text-white transition hover:text-yellow cursor-pointer "
+                                                        xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                                                        viewBox="0 0 50 50">
+                                                        <path fill="currentColor" fill-rule="evenodd"
+                                                            d="M25 10c-8.3 0-15 6.7-15 15c0 6.6 4.3 12.2 10.3 14.2c.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2c-.7-1.7-1.7-2.2-1.7-2.2c-1.4-.9.1-.9.1-.9c1.5.1 2.3 1.5 2.3 1.5c1.3 2.3 3.5 1.6 4.4 1.2c.1-1 .5-1.6 1-2c-3.3-.4-6.8-1.7-6.8-7.4c0-1.6.6-3 1.5-4c-.2-.4-.7-1.9.1-4c0 0 1.3-.4 4.1 1.5c1.2-.3 2.5-.5 3.8-.5s2.6.2 3.8.5c2.9-1.9 4.1-1.5 4.1-1.5c.8 2.1.3 3.6.1 4c1 1 1.5 2.4 1.5 4c0 5.8-3.5 7-6.8 7.4c.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7c6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10"
+                                                            clip-rule="evenodd" stroke-width="1.5"
+                                                            stroke="currentColor" />
+                                                    </svg>
+                                                    <div class="bg-black size-[18px] rounded-full absolute -z-10"></div>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 transition group-hover:bg-black/80 mx-4"></div>
+                                    <div class="relative">
+                                        <div
+                                            class=" px-0 w-0 h-[4px] group-hover:w-full transition bg-yellow absolute bottom-[0.3px] group-hover:px-4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section-5></section-5> -->
+        <section id="white-section" class="bg-[#F2F2F2] overflow-hidden relative z-20  ">
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5">
+                <div class="py-22.5 colg:py-30 ">
+                    <!-- top-heading  -->
+                    <div class="relative colg:right-49 mb-15">
+                        <h3
+                            class="reveal-on-scroll text-[#868686] text-[15px] md:text-base font-light text-center md:text-end">
+                            Customer
+                            reviews are a valuable source
+                            <hr class="text-[#E6E6E6] absolute w-90 -right-98 top-2.5 max-colg:hidden ">
+                            <br>
+                            of information for both businesses and cunsumers.
+                        </h3>
+                    </div>
+                    <!-- main-heading  -->
+                    <div class="flex justify-center mb-15">
+                        <h1
+                            class="reveal-on-scroll text-black text-[36px] md:text-[44px] colg:text-[56px] xl:text-[68px] font-medium text-center leading-11 colg:leading-18 xl:leading-20">
+                            Customer <span class="font-thin">Voices:</span>
+                            <br class="max-md:hidden">
+                            Hear What <span class="font-thin">They Say!</span>
+                        </h1>
+                    </div>
+                    <!-- customer-imgs  -->
+                    <div class="reveal-on-scroll flex justify-center transition flex-wrap gap-6.5 mb-15">
+                        <!-- img-1 -->
+                        <span class="dot2">
+                            <div id="customer-img1-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0  "
+                                    src="img4/4.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img1-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white   size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-2  -->
+                        <span class="dot2">
+                            <div id="customer-img2-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0  colg:mt-7.5 "
+                                    src="img4/6.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img2-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-3  -->
+                        <span class="dot2">
+                            <div id="customer-img3-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0  "
+                                    src="img4/5.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img3-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-4  -->
+                        <span class="dot2">
+                            <div id="customer-img4-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0  colg:mt-7.5 "
+                                    src="img4/7.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img4-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-5  -->
+                        <span class="dot2">
+                            <div id="customer-img5-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0   "
+                                    src="img4/8.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img5-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-6  -->
+                        <span class="dot2">
+                            <div id="customer-img6-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0  colg:mt-7.5"
+                                    src="img4/9.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img6-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-7  -->
+                        <span class="dot2">
+                            <div id="customer-img7-border-div" class="group relative">
+                                <img class="size-17.5 colg:size-22.5  rounded-full object-cover object-top shrink-0   "
+                                    src="img4/10.jpg" alt="">
+                                <div class="dot "></div>
+                                <div id="customer-img7-border"
+                                    class="absolute -top-[7.5px] -left-[7.5px] colg:-top-[10px] colg:-left-[10px] transition group-hover:border-4 border-white size-[85px] colg:size-[110px] rounded-full">
+                                </div>
+                            </div>
+                        </span>
+                        <!-- img-end  -->
+                    </div>
+                    <div class="flex flex-col w-full  justify-center  items-center">
+                        <!-- Quote Icon -->
+                        <span class="reveal-on-scroll text-center  mt-4 -mb-5 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 48 48">
+                                <path fill="#FF9800"
+                                    d="M 13.5 10 A 8.5 8.5 0 0 0 13.5 27 A 8.5 8.5 0 0 0 18.291016 25.519531 C 17.422273 29.222843 15.877848 31.803343 14.357422 33.589844 C 12.068414 36.279429 9.9433594 37.107422 9.9433594 37.107422 A 1.50015 1.50015 0 1 0 11.056641 39.892578 C 11.056641 39.892578 13.931586 38.720571 16.642578 35.535156 C 19.35357 32.349741 22 27.072581 22 19 A 1.50015 1.50015 0 0 0 21.984375 18.78125 A 8.5 8.5 0 0 0 13.5 10 z M 34.5 10 A 8.5 8.5 0 0 0 34.5 27 A 8.5 8.5 0 0 0 39.291016 25.519531 C 38.422273 29.222843 36.877848 31.803343 35.357422 33.589844 C 33.068414 36.279429 30.943359 37.107422 30.943359 37.107422 A 1.50015 1.50015 0 1 0 32.056641 39.892578 C 32.056641 39.892578 34.931586 38.720571 37.642578 35.535156 C 40.35357 32.349741 43 27.072581 43 19 A 1.50015 1.50015 0 0 0 42.984375 18.78125 A 8.5 8.5 0 0 0 34.5 10 z" />
+                            </svg>
+                        </span>
+
+                        <!-- Review + Arrows -->
+                        <div
+                            class="reveal-on-scroll flex colg:items-center colg:justify-between w-full colg:gap-4 relative top-7.5">
+                            <!-- Left Arrow -->
+                            <span id="left-side-arrow"
+                                class="reveal-on-scroll bg-[#E5E5E5] shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full cursor-pointer z-20 max-colg:absolute  left-0 -top-14">
+                                <svg id="LeftArrowSvg" class="rotate-180 text-black" xmlns="http://www.w3.org/2000/svg"
+                                    width="27" height="27" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                        d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                </svg>
+                            </span>
+
+                            <!-- Reviews Container -->
+                            <div class="relative  w-full colg:w-[70%] h-145 coxs:h-110 sm:h-80 max-sm:overflow-hidden">
+                                <!-- Review 1 -->
+                                <div
+                                    class="review-item active absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class=" text-xl font-medium text-center mb-2.5">Sarah Newman</h3>
+                                    <p class=" text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        I had the pleasure of working with this creative agency, and I must say, they
+                                        truly
+                                        impressed me. They consistently think outside the box, resulting in impressive
+                                        and
+                                        impactful work. I highly recommend this agency for their consistent delivery of
+                                        exceptional creative solutions.
+                                    </p>
+                                </div>
+
+                                <!-- Review 2 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Emma Trueman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px]text-[#797979] text-center leading-10 font-light">
+                                        This creative agency stands out with their exceptional talent and expertise.
+                                        Their
+                                        ability to think outside the box and bring unique ideas to life is truly
+                                        impressive.
+                                        With meticulous attention to detail, they consistently deliver visually stunning
+                                        and
+                                        impactful work.
+                                    </p>
+                                </div>
+
+                                <!-- Review 3 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Sarah Newman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        I had the pleasure of working with this creative agency, and I must say, they
+                                        truly
+                                        impressed me. They consistently think outside the box, resulting in impressive
+                                        and
+                                        impactful work. I highly recommend this agency for their consistent delivery of
+                                        exceptional creative solutions.
+                                    </p>
+                                </div>
+
+                                <!-- Review 4 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Emma Trueman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        This creative agency stands out with their exceptional talent and expertise.
+                                        Their
+                                        ability to think outside the box and bring unique ideas to life is truly
+                                        impressive.
+                                        With meticulous attention to detail, they consistently deliver visually stunning
+                                        and
+                                        impactful work.
+                                    </p>
+                                </div>
+
+                                <!-- Review 5 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Sarah Newman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        I had the pleasure of working with this creative agency, and I must say, they
+                                        truly
+                                        impressed me. They consistently think outside the box, resulting in impressive
+                                        and
+                                        impactful work. I highly recommend this agency for their consistent delivery of
+                                        exceptional creative solutions.
+                                    </p>
+                                </div>
+
+                                <!-- Review 6 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Emma Trueman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        This creative agency stands out with their exceptional talent and expertise.
+                                        Their
+                                        ability to think outside the box and bring unique ideas to life is truly
+                                        impressive.
+                                        With meticulous attention to detail, they consistently deliver visually stunning
+                                        and
+                                        impactful work.
+                                    </p>
+                                </div>
+
+
+                                <!-- Review 7 -->
+                                <div
+                                    class="reveal-on-scroll review-item inactive absolute inset-0 flex flex-col items-center justify-center ">
+                                    <h3 class="text-xl font-medium text-center mb-2.5">Sarah Newman</h3>
+                                    <p class="text-xs font-medium text-[#7d7d7d] tracking-[2px] mb-7.5">ENVATO MARKET
+                                    </p>
+                                    <p
+                                        class="reveal-on-scroll text-xl md:text-[22px] text-[#797979] text-center leading-10 font-light">
+                                        I had the pleasure of working with this creative agency, and I must say, they
+                                        truly
+                                        impressed me. They consistently think outside the box, resulting in impressive
+                                        and
+                                        impactful work. I highly recommend this agency for their consistent delivery of
+                                        exceptional creative solutions.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- Right Arrow -->
+                            <span id="right-side-arrow"
+                                class="reveal-on-scroll  bg-[#E5E5E5] shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full cursor-pointer z-20 max-colg:absolute  right-0 -top-14">
+                                <svg id="RightArrowSvg" class="text-black" xmlns="http://www.w3.org/2000/svg" width="27"
+                                    height="27" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"
+                                        d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- brands-show  -->
+            <div class="overflow-hidden w-full pb-22.5 colg:pb-30">
+                <div class="animate-marquee flex w-max">
+                    <div class="flex gap-x-20 md:gap-x-37 colg:gap-x-45 w-max mr-2 md:mr-32 colg:mr-37.5">
+                        <!-- Set 1 -->
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0" src="img4/14.svg" alt="">
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0" src="img4/14.svg" alt="">
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0" src="img4/14.svg" alt="">
+                    </div>
+                    <div class="flex gap-x-45 w-max">
+                        <!-- Set 2 (exact copy) -->
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0" src="img4/14.svg" alt="">
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0" src="img4/14.svg" alt="">
+                        <img class="w-[100px] h-[19px] shrink-0" src="img4/13.svg" alt="">
+                        <img class="w-[60px] h-[22px] shrink-0 " src="img4/14.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- <section-6></section-6> -->
+        <section id="white-section" class="bg-white">
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5 py-22.5 colg:py-30">
+                <!-- heading  -->
+                <div class="flex max-colg:flex-col justify-between  colg:items-center mb-7.5">
+                    <div>
+                        <h1
+                            class="reveal-on-scroll text-[30px] md:text-[36px] colg:text-[39px] xl:text-[42px] font-medium mb-7.5 leading-9">
+                            Popular
+                            Publications:</h1>
+                    </div>
+                    <div class="reveal-on-scroll flex items-center mb-7.5">
+                        <span class="text-xs tracking-[2px] mr-[15px]">VIEW ALL</span>
+                        <span id="left-side-arrow"
+                            class="bg-[#E5E5E5] shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full cursor-pointer z-20">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <!-- columns -->
+                <div class="reveal-on-scroll flex max-colg:flex-col gap-x-7.5">
+                    <!-- 1-column -->
+                    <div class="cursor-pointer group">
+                        <div class="overflow-hidden  mb-7.5">
+                            <img class="scale-x-103 group-hover:scale-108 transition " src="img4/11.jpg" alt="">
+                        </div>
+                        <div class="pt-7.5 pr-7.5 mb-15">
+                            <h6 class="reveal-on-scroll text-xs text-[#7F7F7F] font-medium tracking-[2px] mb-7.5">
+                                <span class="mr-[15px] text-yellow">TECHNOLOGY</span>
+                                MAY 24 2023
+                            </h6>
+                            <h1
+                                class="reveal-on-scroll font-medium text-[22px] md:text-[24px] colg:text-[26px] xl:text-[28px] leading-6 md:leading-9 mb-7.5">
+                                How to Become a Graphic Designer in 10 Simple Steps</h1>
+                            <p class="reveal-on-scroll text-[#818181] font-light mb-7.5">Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicing
+                                elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam
+                                cupidita...
+                            </p>
+                            <div class="reveal-on-scroll flex items-center">
+                                <span class="text-xs tracking-[2px] mr-[15px] font-medium">READ MORE</span>
+                                <span id="left-side-arrow"
+                                    class="bg-[#E5E5E5] shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full cursor-pointer z-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2-column -->
+                    <div class="cursor-pointer group">
+                        <div class="overflow-hidden  mb-7.5">
+                            <img class="reveal-on-scroll scale-x-103 group-hover:scale-108 transition "
+                                src="img4/12.jpg" alt="">
+                        </div>
+                        <div class="pt-7.5 pr-7.5">
+                            <h6 class="reveal-on-scroll text-xs text-[#7F7F7F] font-medium tracking-[2px] mb-7.5">
+                                <span class="mr-[15px] text-yellow">TECHNOLOGY</span>
+                                MAY 24 2023
+                            </h6>
+                            <h1
+                                class="reveal-on-scroll font-medium text-[22px] md:text-[24px] colg:text-[26px] xl:text-[28px] leading-9 mb-7.5">
+                                16 Best Graphic Design Online and Offline Courses</h1>
+                            <p class="reveal-on-scroll text-[#818181] font-light mb-7.5   ">Lorem
+                                ipsum dolor sit
+                                amet, consectetur adipisicing
+                                elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam
+                                cupidita...
+                            </p>
+                            <div class="reveal-on-scroll flex items-center">
+                                <span class="text-xs tracking-[2px] mr-[15px] font-medium">READ MORE</span>
+                                <span id="left-side-arrow"
+                                    class="bg-[#E5E5E5] shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full cursor-pointer z-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <footer></footer> -->
+        <section class="bg-black relative z-20 ">
+
+            <div class="xl:container xl:mx-auto px-7.5 xl:px-32.5 py-[90px] colg:py-[120px]">
+                <!-- upper-part -->
+                <div class="flex max-md:flex-col md:justify-between">
+                    <!-- left-side  -->
+                    <div class="mb-15 md:w-[31.5%] ">
+                        <h1 class="reveal-on-scroll text-[#DADADA] text-[36px] colg:text-[42px] mb-6">Ashley.</h1>
+                        <p class="reveal-on-scroll text-[#555555] text-[15px] md:text-base font-medium mb-7.5">Subscribe
+                            our newsletter:
+                        </p>
+                        <div class="reveal-on-scroll relative group">
+                            <input id="footerInput"
+                                class="indent-7.5 md:indent-12.5 h-17.5 text-[#808080] bg-[#1A1A1A] transition group-hover:bg-white rounded-full text-xs md:text-sm font-semibold tracking-[2px] w-full"
+                                type="text" name="" placeholder="ENTER OUR EMAIL" id="">
+                            <span id="left-side-arrow"
+                                class="bg-yellow shrink-0 transition size-10 hover:scale-110 group flex justify-center items-center rounded-full absolute top-3.5 right-4 cursor-pointer z-20">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- right-side  -->
+                    <div class="flex max-md:flex-col items-start  md:w-[48%] md:mb-15  ">
+                        <div
+                            class="flex flex-col  text-[#E6E6E6] text-[22px] md:text-[28px] font-medium mb-7.5 md:w-[77%]">
+                            <h2 class="reveal-on-scroll mb-4 text-yellow cursor-pointer shrink-0 ">Home</h2>
+                            <h2
+                                class="reveal-on-scroll mb-4 transition cursor-pointer hover:translate-x-3 hover:text-yellow">
+                                Portfolio
+                            </h2>
+                            <h2
+                                class="reveal-on-scroll mb-4 transition cursor-pointer hover:translate-x-3 hover:text-yellow">
+                                Services
+                            </h2>
+                            <h2
+                                class="reveal-on-scroll mb-4 transition cursor-pointer hover:translate-x-3 hover:text-yellow">
+                                Contact
+                            </h2>
+                            <h2
+                                class="reveal-on-scroll mb-4 transition cursor-pointer hover:translate-x-3 hover:text-yellow">
+                                Blog</h2>
+                        </div>
+                        <div class="flex flex-col items-start text-[15px] md:text-base mb-7.5 mt-4 md:w-[50%] ">
+                            <p
+                                class="reveal-on-scroll text-[#ffffff66] relative z-60 mb-4 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                Privacy Policy</p>
+                            <p
+                                class="reveal-on-scroll text-[#ffffff66] mb-4  cursor-pointer shrink-0  transition hover:text-white hover:translate-x-1.5">
+                                Terms and conditions</p>
+                            <p
+                                class="reveal-on-scroll text-[#ffffff66] mb-4 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                Cookie Policy</p>
+                            <p
+                                class="reveal-on-scroll text-[#ffffff66] mb-4 cursor-pointer  transition hover:text-white hover:translate-x-1.5">
+                                Careers</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- lower-part  -->
+                <div class="flex  max-md:flex-col-reverse justify-between">
+                    <!-- left-side  -->
+                    <div class="flex flex-col justify-between">
+                        <div>
+                            <span class="reveal-on-scroll flex items-center  gap-2.5 mb-7.5">
+                                <!-- icon-1  -->
+                                <span>
+                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20">
+                                        <path fill="currentColor"
+                                            d="M8.072 9.301s1.892-.147 1.892-2.459c0-2.315-1.548-3.441-3.51-3.441H0v12.926h6.454s3.941.129 3.941-3.816c-.001-.001.171-3.21-2.323-3.21M2.844 5.697h3.61s.878 0 .878 1.344c0 1.346-.516 1.541-1.102 1.541H2.844zm3.427 8.332H2.844v-3.455h3.61s1.308-.018 1.308 1.775c0 1.512-.977 1.669-1.491 1.68m9.378-7.341c-4.771 0-4.767 4.967-4.767 4.967s-.326 4.941 4.767 4.941c0 0 4.243.254 4.243-3.437H17.71s.072 1.391-1.988 1.391c0 0-2.184.152-2.184-2.25h6.423c.001-.001.709-5.612-4.312-5.612m1.941 3.886h-4.074s.266-1.992 2.182-1.992s1.892 1.992 1.892 1.992m.507-6.414H12.98v1.594h5.117z"
+                                            stroke-width="0.5" stroke="currentColor" />
+                                    </svg>
+                                </span>
+                                <!-- icon-2  -->
+                                <span>
+                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="1.5">
+                                            <circle cx="12" cy="12" r="9.25" />
+                                            <path d="M18.54 18.54s-1.852-4.79-5.415-8.227s-8.823-3.445-8.823-3.445" />
+                                            <path
+                                                d="M13.912 13.912c2.241-2.242 4.86-3.613 7.113-3.927a9.24 9.24 0 0 1-2.484 8.555a9.24 9.24 0 0 1-8.557 2.486c.315-2.254 1.686-4.873 3.928-7.114M5.46 5.459a9.24 9.24 0 0 1 8.554-2.485c-.314 2.253-1.685 4.872-3.926 7.114S5.227 13.7 2.973 14.015A9.24 9.24 0 0 1 5.46 5.459" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <!-- icon-3  -->
+                                <span>
+                                    <svg class="text-white transition cursor-pointer hover:scale-95 hover:text-yellow"
+                                        xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M21.81 6.227c.058-.08-.028-.185-.12-.149a8.5 8.5 0 0 1-2.05.513a4.13 4.13 0 0 0 1.72-2.02c.034-.086-.06-.163-.14-.118c-.727.401-1.51.69-2.325.857a.1.1 0 0 1-.093-.03a4.1 4.1 0 0 0-6.991 3.65a.102.102 0 0 1-.104.123a11.64 11.64 0 0 1-8.224-4.17a.098.098 0 0 0-.163.015a4.16 4.16 0 0 0-.48 1.943a4.09 4.09 0 0 0 1.82 3.41a4.05 4.05 0 0 1-1.709-.43c-.068-.035-.15.014-.147.09a4.23 4.23 0 0 0 .933 2.468A4.1 4.1 0 0 0 6.1 13.79a4 4 0 0 1-1.1.17a5 5 0 0 1-.606-.045c-.075-.01-.136.06-.11.13A4.11 4.11 0 0 0 8.06 16.73a8.22 8.22 0 0 1-5.625 1.741c-.106-.007-.155.134-.064.188a11.57 11.57 0 0 0 5.919 1.62A11.59 11.59 0 0 0 20 8.6v-.48a.1.1 0 0 1 .04-.08a8.4 8.4 0 0 0 1.77-1.813"
+                                            stroke-width="0.5" stroke="currentColor" />
+                                    </svg>
+                                </span>
+                                <!-- icon-4  -->
+                                <span class="relative flex justify-center items-center ">
+                                    <svg class=" text-white transition hover:text-yellow cursor-pointer "
+                                        xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 50 50">
+                                        <path fill="currentColor" fill-rule="evenodd"
+                                            d="M25 10c-8.3 0-15 6.7-15 15c0 6.6 4.3 12.2 10.3 14.2c.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2c-.7-1.7-1.7-2.2-1.7-2.2c-1.4-.9.1-.9.1-.9c1.5.1 2.3 1.5 2.3 1.5c1.3 2.3 3.5 1.6 4.4 1.2c.1-1 .5-1.6 1-2c-3.3-.4-6.8-1.7-6.8-7.4c0-1.6.6-3 1.5-4c-.2-.4-.7-1.9.1-4c0 0 1.3-.4 4.1 1.5c1.2-.3 2.5-.5 3.8-.5s2.6.2 3.8.5c2.9-1.9 4.1-1.5 4.1-1.5c.8 2.1.3 3.6.1 4c1 1 1.5 2.4 1.5 4c0 5.8-3.5 7-6.8 7.4c.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7c6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10"
+                                            clip-rule="evenodd" stroke-width="1.5" stroke="currentColor" />
+                                    </svg>
+                                    <div class="bg-black size-[18px] rounded-full absolute -z-10"></div>
+                                </span>
+                        </div>
+                        <div>
+                            <p class="reveal-on-scroll text-[#484848]">© Copyright 2023 - Mil. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <!-- right-side  -->
+                    <div class="md:w-[48%]">
+                        <div class="flex max-md:flex-col justify-between">
+                            <div class="max-md:mb-15">
+                                <h1 class="reveal-on-scroll text-lg text-white font-medium  mb-7.5">Canada</h1>
+                                <p class="reveal-on-scroll text-[#ffffff66] text-[15px] md:text-base">
+                                    71 South Los Carneros Road,
+                                    <br>
+                                    California +51 174 705 812
+                                </p>
+                            </div>
+                            <div class="max-md:mb-15">
+                                <h1 class="reveal-on-scroll text-lg text-white font-medium  mb-7.5">Germany</h1>
+                                <div class="">
+                                    <p class="reveal-on-scroll text-[#ffffff66] text-[15px] md:text-base">
+                                        Leehove 40, 2678 MC De Lier,
+                                        <br>
+                                        Netherlands +31 174 705 811
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="script4.js"></script>
+</body>
+
+</html>
